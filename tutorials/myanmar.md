@@ -44,9 +44,3 @@
 2. Discord channel သို့ သွားပြီး logs များကို မက်ဆေ့ကြောင့်များအဖြစ် ရရှိပါမည်။
 
 ![Test the Webhook](../assets/images/step-3.png)
----
-
-## Discord မှာ ပြသမည့် အထွက်အချက် (Output) ဥပမာ
-
-တစ်စုံတစ်ယောက် GitHub repository ကို push လုပ်လျှင် ဒီလို message တွေကို ရရှိပါမည်:
-

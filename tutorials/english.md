@@ -44,9 +44,3 @@ In this tutorial, we will learn how to automatically send GitHub logs (push even
 2. Go to your Discord channel, and you should see the logs appear as messages.
 
 ![Test the Webhook](../assets/images/step-3.png)
----
-
-## Example Output in Discord
-
-When someone pushes to the repository, you will see a message like:
-
