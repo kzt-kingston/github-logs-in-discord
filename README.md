@@ -4,3 +4,5 @@ In this tutorial, we will learn how to automatically send GitHub logs (push even
 
 - [English](./tutorials/english.md)
 - [Myanmar](./tutorials/myanmar.md)
+
+![Github Discord Integration](./assets/images/gh-dc-integration.png)
