@@ -22,23 +22,28 @@
 5. Webhook အတွက် အမည် (ဥပမာ: "GitHub Logs") ထည့်ပါ၊ logs များပြသလိုသော channel ကို ရွေးပါ။
 6. **Webhook URL** ကိုကူးယူပါ။ GitHub အတွက် ဒီ URL လိုအပ်ပါမည်။
 
+![Create a Webhook in Discord](../assets/images/step-1.png)
+
 ### 2. GitHub Webhook ထည့်သွင်းခြင်း
 
 1. GitHub repository ကို ဖွင့်ပါ။
 2. **Settings** > **Webhooks** (ဘယ်ဘက် sidebar) သို့သွားပါ။
 3. **Add Webhook** ကိုနှိပ်ပါ။
-4. Discord မှ ကူးထားသော **Webhook URL** ကို **Payload URL** မှာ ထည့်သွင်းပါ။
+4. Discord မှ ကူးထားသော **Webhook URL** နဲ. သူ.ရဲ.နောက်ဆုံးမှာ **/github** ဆိုပီးထပ်ပေါင်းထည့်လိုက်ပါ ပီးသွားရင်တော့ **Payload URL** မှာ ထည့်သွင်းပါ။
 5. **Content type** ကို `application/json` သို့ ပြောင်းပါ။
-6. **Which events would you like to trigger this webhook?** အောက်မှာ:
+6. **Which events would you like to trigger this webhook?** အောက်မှာ ကိုယ်ကြိုက်နှစ်သက်သလို setting ကိုပြောင်းနိုင်ပါတယ်:
    - **Just the push event** ကို ရွေးပါ (push logs များသာလိုအပ်ပါက)။
    - **Let me select individual events** ကို ရွေးပါ (pull requests, issues စသည်ဖြင့် events များလည်းလိုအပ်ပါက)။
 7. **Add Webhook** ကိုနှိပ်ပြီး save လုပ်ပါ။
+
+![Set Up GitHub Webhook](../assets/images/step-2.png)
 
 ### 3. Webhook ကို စမ်းသပ်ခြင်း
 
 1. Commit လုပ်ခြင်း (သို့) pull request တစ်ခုဖွင့်ပါ။
 2. Discord channel သို့ သွားပြီး logs များကို မက်ဆေ့ကြောင့်များအဖြစ် ရရှိပါမည်။
 
+![Test the Webhook](../assets/images/step-3.png)
 ---
 
 ## Discord မှာ ပြသမည့် အထွက်အချက် (Output) ဥပမာ
