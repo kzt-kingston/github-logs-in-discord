@@ -22,6 +22,8 @@ In this tutorial, we will learn how to automatically send GitHub logs (push even
 5. Set a name for your webhook (e.g., "GitHub Logs") and choose the channel where you want the logs to appear.
 6. Copy the **Webhook URL**. We will need this for GitHub.
 
+![Create a Webhook in Discord](../assets/images/step-1.png)
+
 ### 2. Set Up GitHub Webhook
 
 1. Open your GitHub repository.
@@ -33,6 +35,8 @@ In this tutorial, we will learn how to automatically send GitHub logs (push even
    - **Just the push event** if you only want push logs.
    - **Let me select individual events** if you want more events like pull requests, issues, etc.
 7. Click **Add Webhook** to save.
+
+![Create a Webhook in Discord](../assets/images/step-2.png)
 
 ### 3. Test the Webhook
 
